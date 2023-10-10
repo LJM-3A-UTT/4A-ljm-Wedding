@@ -1,4 +1,5 @@
 <?php 
+require_once './controladores/formularios.controlador.php';
 
     if (!isset($_SESSION["validarIngreso"])) {
       echo '<script>window.location="index.php?pagina=ingreso";</script>';  
@@ -15,6 +16,17 @@
     //echo '<pre>'; print_r($usuarios); echo '</pre>';
 
 ?>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/e9b3b6bf61.js" crossorigin="anonymous"></script>
+
 <table class="table table-striped">
     <thead>
         <tr>

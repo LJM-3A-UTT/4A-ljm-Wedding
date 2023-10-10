@@ -1,4 +1,7 @@
 <?php
+                require_once './controladores/formularios.controlador.php'
+                ?>
+<?php
 
 if (isset($_GET["token"])) {
     $item = "token";
